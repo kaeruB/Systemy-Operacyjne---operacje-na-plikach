@@ -1,0 +1,130 @@
+Sortowanie:
+
+
+./zad1 lib sort "./data" 1000 4
+
+SORT LIB
+Usr time: 42  ; Sys time: 130
+
+
+
+./zad1 sys sort "./data" 1000 4
+
+SORT SYS
+Usr time: 34  ; Sys time: 154 
+
+_____________________________________________
+
+
+./zad1 lib sort "./data" 1000 512
+
+SORT LIB
+Usr time: 55  ; Sys time: 145
+
+
+
+./zad1 sys sort "./data" 1000 512
+
+SORT SYS
+Usr time: 28  ; Sys time: 156 
+
+
+_____________________________________________
+
+
+./zad1 lib sort "./data" 1000 4096
+
+SORT LIB
+Usr time: 32  ; Sys time: 268
+
+
+
+
+./zad1 sys sort "./data" 1000 4096
+
+SORT SYS
+Usr time: 31  ; Sys time: 433
+
+_______________________________________________
+
+
+./zad1 lib sort "./data" 1000 8192
+
+SORT LIB
+Usr time: 65  ; Sys time: 539 
+
+
+
+
+./zad1 sys sort "./data" 1000 8192
+
+SORT SYS
+Usr time: 31  ; Sys time: 410
+
+_________________________________________________
+=================================================
+_________________________________________________
+
+SHUFFLE:
+
+./zad1 lib shuffle "./data" 100000 4
+
+SHUFFLE LIB
+Usr time: 20  ; Sys time: 91 
+
+
+
+./zad1 sys shuffle "./data" 100000 4
+
+SHUFFLE SYS
+Usr time: 12  ; Sys time: 62 
+
+________________________________________________
+
+
+./zad1 lib shuffle "./data" 100000 512
+
+SHUFFLE LIB
+Usr time: 19  ; Sys time: 106
+
+
+./zad1 sys shuffle "./data" 100000 512
+
+SHUFFLE SYS
+Usr time: 9  ; Sys time: 74 
+
+________________________________________________
+
+./zad1 lib shuffle "./data" 20000 4096
+
+SHUFFLE LIB
+Usr time: 1  ; Sys time: 23 
+
+
+
+./zad1 sys shuffle "./data" 20000 4096
+
+SHUFFLE SYS
+Usr time: 1  ; Sys time: 19 
+
+_______________________________________________
+
+./zad1 lib shuffle "./data" 10000 8192
+
+SHUFFLE LIB
+Usr time: 1  ; Sys time: 15
+
+
+./zad1 sys shuffle "./data" 10000 8192
+
+SHUFFLE SYS
+Usr time: 1  ; Sys time: 14 
+
+
+__________________________________________________________________
+
+
+Operacje za pomocą funkcji bibliotecznych wydają się wolniejsze od systemowych po mimo praktycznie identycznej implementacji sortowania lib i sys oraz shuffle lib i sys.
+
+
+
